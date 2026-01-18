@@ -278,3 +278,44 @@ nav ul a {
 #features-4 .access-container .container-body button{
   margin-bottom: 24px;
 }
+
+footer{
+  background-color: #001931;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 80px;
+}
+
+.social{
+  color: #FFFFFF;
+}
+
+.social h3{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.social .icon{
+  gap: 16px;
+  display: flex;
+}
+
+hr{
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+footer p{
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
