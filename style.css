@@ -1,4 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* google font */
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+}
+
+/* shared btn */
+.btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12.5px 16px;
+  background-color: #30B868;
+}
+
+
+
+/* Navbar design */
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 24px;
+  width: 71%;
+  max-width: 1584px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 16px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#hero {
+  height: 674px;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1584px;
+  box-sizing: border-box;
+}
+
+#hero .hero-container {
+  max-width: 1360px;
+  padding: 0 120px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.status-icon {
+  width: 8px;
+  height: 8px;
+  background-color: #30B868;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(46, 125, 78, 0.25),
+    0 0 0 8px rgba(46, 125, 78, 0.15);
+}
+
+#hero .hero-container .hero-top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto 24px auto;
+  background-color: #FFFFFF;
+  padding: 12px 28px;
+  border-radius: 100px;
+  border: none;
+  color: #30B868;
+  cursor: pointer;
+}
+
+#hero .hero-container h1 {
+  opacity: 90%;
+}
+
+.hero-container h1 {
+  max-width: 740px;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 90%;
+  padding-bottom: 16px;
+}
+
+.hero-container .hero-text-white {
+  color: #FFFFFF;
+}
+
+.hero-container .hero-text-green {
+  color: #30B868;
+}
+
+.hero-container p {
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+
+.hero-container .btn2 {
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12.5px 16px;
+  margin-left: 10px;
 }
