@@ -132,9 +132,11 @@ nav ul a {
   margin-left: 10px;
 }
 
-#features, #features-3 {
+#features,
+#features-3,
+#features-4 {
   padding: 80px 20px;
-  
+
 }
 
 #features .features-container {
@@ -201,7 +203,7 @@ nav ul a {
   line-height: 20px;
 }
 
-#features-3 .features-3-container{
+#features-3 .features-3-container {
   display: flex;
   justify-content: space-around;
   max-width: 1360px;
@@ -209,39 +211,70 @@ nav ul a {
   width: 90%;
 }
 
-#features-3 .features-3-container .knowledge{
+#features-3 .features-3-container .knowledge {
   max-width: 600px;
   /* border: 1px solid red; */
   border-radius: 8px;
 }
 
-#features-3 .features-3-container .solution{
+#features-3 .features-3-container .solution {
   /* border: 1px solid red; */
   gap: 40px;
   padding-top: 102px;
 }
 
-#features-3 .features-3-container .solution .solution-header1{
+#features-3 .features-3-container .solution .solution-header1 {
   color: #30B868;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-#features-3 .features-3-container .solution h1{
+#features-3 .features-3-container .solution h1 {
   color: #001931;
   font-size: 48px;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-#features-3 .features-3-container .solution .para{
+#features-3 .features-3-container .solution .para {
   color: #627382;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-#features-3 .features-3-container .solution .list{
+#features-3 .features-3-container .solution .list {
   color: #001931;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+#features-4 .access-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #eeeeee;
+  border-radius: 16px;
+}
+
+#features-4 .access-container .container-body {
+  padding: 80px 40px;
+}
+
+#features-4 .access-container .container-body h1 {
+  color: #001931;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#features-4 .access-container .container-body p {
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+#features-4 .access-container .container-body button{
+  margin-bottom: 24px;
 }
