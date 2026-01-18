@@ -76,7 +76,7 @@ nav ul a {
     0 0 0 8px rgba(46, 125, 78, 0.15);
 }
 
-#hero .hero-container .hero-top-text {
+#hero .hero-container .btn3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,6 +89,7 @@ nav ul a {
   color: #30B868;
   cursor: pointer;
 }
+
 
 #hero .hero-container h1 {
   opacity: 90%;
@@ -275,15 +276,15 @@ nav ul a {
   margin-bottom: 24px;
 }
 
-#features-4 .access-container .container-body button{
+#features-4 .access-container .container-body button {
   margin-bottom: 24px;
 }
 
-footer{
+footer {
   background-color: #001931;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-between;
   max-width: 1360px;
@@ -292,30 +293,53 @@ footer{
   padding: 80px;
 }
 
-.social{
+.social {
   color: #FFFFFF;
 }
 
-.social h3{
+.social h3 {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 24px;
 }
 
-.social .icon{
+.social .icon {
   gap: 16px;
   display: flex;
 }
 
-hr{
+hr {
   max-width: 1360px;
   margin: 0 auto;
   width: 80%;
 }
 
-footer p{
+footer p {
   text-align: center;
   color: #FFFFFF;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+
+/* hover design */
+.btn:hover {
+  background-color: #07642e;
+}
+
+.btn2:hover {
+  background-color: #ffffff4b;
+}
+
+#hero .hero-container .btn3:hover{
+  background-color: #bfbfbf;
+}
+
+#features .features-cards .card:hover{
+  background-color: #bcdefd;
+}
+
+
+/* .btn4:hover {
+  background-color: #863434;
+} */
